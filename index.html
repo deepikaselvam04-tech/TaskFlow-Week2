@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow - Project Management Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">TaskFlow</div>
+        <nav>
+            <a href="#dashboard">Dashboard</a>
+            <a href="#projects">Projects</a>
+            <a href="#tasks">Tasks</a>
+        </nav>
+    </header>
+
+    <main id="dashboard" class="container">
+
+        <section class="welcome">
+            <div>
+                <p class="subtitle">PROJECT MANAGEMENT</p>
+                <h1>Welcome back 👋</h1>
+                <p>Manage your projects, tasks and team progress in one place.</p>
+            </div>
+            <button class="primary-btn">+ New Task</button>
+        </section>
+
+        <section class="stats">
+            <div class="stat-card">
+                <span>Total Projects</span>
+                <strong>12</strong>
+                <small>+2 this month</small>
+            </div>
+
+            <div class="stat-card">
+                <span>Active Tasks</span>
+                <strong>28</strong>
+                <small>8 due this week</small>
+            </div>
+
+            <div class="stat-card">
+                <span>Completed</span>
+                <strong>76</strong>
+                <small>+15% this month</small>
+            </div>
+
+            <div class="stat-card">
+                <span>Team Members</span>
+                <strong>18</strong>
+                <small>3 new members</small>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="section-heading">
+                <div>
+                    <h2>Projects</h2>
+                    <p>Track your ongoing projects</p>
+                </div>
+                <button class="secondary-btn">View All</button>
+            </div>
+
+            <div class="project-grid">
+
+                <article class="project-card">
+                    <div class="project-top">
+                        <span class="badge blue">In Progress</span>
+                        <span>•••</span>
+                    </div>
+                    <h3>Website Redesign</h3>
+                    <p>Modernize the company website experience.</p>
+
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 72%;"></div>
+                    </div>
+
+                    <div class="project-info">
+                        <span>72% complete</span>
+                        <span>6 tasks</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-top">
+                        <span class="badge purple">Planning</span>
+                        <span>•••</span>
+                    </div>
+                    <h3>Mobile Application</h3>
+                    <p>Build a responsive mobile experience.</p>
+
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 45%;"></div>
+                    </div>
+
+                    <div class="project-info">
+                        <span>45% complete</span>
+                        <span>10 tasks</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-top">
+                        <span class="badge green">Completed</span>
+                        <span>•••</span>
+                    </div>
+                    <h3>Marketing Campaign</h3>
+                    <p>Launch the new digital marketing campaign.</p>
+
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 100%;"></div>
+                    </div>
+
+                    <div class="project-info">
+                        <span>100% complete</span>
+                        <span>8 tasks</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="tasks" class="section">
+            <div class="section-heading">
+                <div>
+                    <h2>Recent Tasks</h2>
+                    <p>Stay on top of your team's work</p>
+                </div>
+            </div>
+
+            <div class="task-list">
+
+                <div class="task">
+                    <div>
+                        <strong>Design homepage</strong>
+                        <p>Website Redesign</p>
+                    </div>
+                    <span class="badge blue">In Progress</span>
+                </div>
+
+                <div class="task">
+                    <div>
+                        <strong>Create wireframes</strong>
+                        <p>Mobile Application</p>
+                    </div>
+                    <span class="badge purple">Planning</span>
+                </div>
+
+                <div class="task">
+                    <div>
+                        <strong>Publish campaign</strong>
+                        <p>Marketing Campaign</p>
+                    </div>
+                    <span class="badge green">Completed</span>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 TaskFlow. Project Management Dashboard.</p>
+    </footer>
+
+</body>
+      </html>
